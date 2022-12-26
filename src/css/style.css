@@ -1,0 +1,28 @@
+button:hover{
+    transform: scale(142%);
+}
+
+button {
+    text-align: center;
+    display:flex;
+    margin: auto;
+    border: 20px;
+    border-radius: 42px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 900;
+    font-size: 100px;
+}
+
+#add {
+    background-color: green;
+}
+
+#update {
+    background-color: rgb(255, 217, 0);
+}
+
+#demo
+{
+    background-color: darkslategray;
+
+}
