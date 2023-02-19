@@ -7,10 +7,18 @@
 <!-- import styles -->
 <link href="./src/css/style.css" rel="stylesheet">
 
+<!-- <p id="stats">Pacmen Generated:</p> -->
 <body id = "demo">
+    <p id ="spawned">Spawned:<p>
+        <!-- <p id ="velocity">Speed:<p> -->
     <div id='game'>
-        <button onclick='makeOne()' id = "add" width='200' height='30'>Add PacMan</button>
-        <button onclick='update()' id ="update" width='200' height='30'>Move</button>
+        <button onclick='makeOne()' id = "add" width='50' height='30'>Spawn</button>
+        <button onclick='update()' id ="update" width='200' height='30'>Speed Up</button>
+        <button onclick='randomize()' id ="randomize" width='200' height='30'>Randomize</button>
+        <button onclick='generate()' id ="generate" width='200' height='30'>Generate</button>
+            <input id="genQTY" value="2"><br>
+        <button onclick='reset()' id ="reset" width='100' height='30'>Reset</button>
+        <!-- <button onclick='updateStats()' id ="test" width='100' height='30'>Test</button> -->
     </div>
 </body>
 
